@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    outline: none !important;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -31,9 +32,14 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-    line-height: 1;
     direction: rtl;
     font-family: IRANSans !important;
+    background: #f5f5f5;
+    color: #343434;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 100 !important;
+    line-height: 1.55em;
 }
 
 ul {

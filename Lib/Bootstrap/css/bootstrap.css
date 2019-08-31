@@ -3037,7 +3037,7 @@ input[type="button"].btn-block {
 .dropdown-toggle::after {
   display: inline-block;
   margin-right: 0.255em;
-  vertical-align: 0.255em;
+  vertical-align: 0.5m;
   content: "";
   border-top: 0.3em solid;
   border-left: 0.3em solid transparent;
@@ -4231,13 +4231,14 @@ input[type="button"].btn-block {
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   -ms-flex-positive: 1;
+  height: 100%;
   flex-grow: 1;
   -ms-flex-align: center;
   align-items: center;
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
+  padding: 0 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
@@ -4532,11 +4533,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+ 
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
