@@ -1,3 +1,4 @@
+.f-13{font-size: 13px !important}
 #page{
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
 }
@@ -172,4 +173,14 @@
    text-transform: uppercase;
    margin-left: 5px;
    margin-bottom: 5px;
+}
+body{
+	font-family: Ubuntu;
+	margin-top: 120px;
+}
+.heading i{
+	font-size: 80px;
+}
+.heading p{
+	font-size: 15px;
 }
