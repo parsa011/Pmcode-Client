@@ -162,3 +162,14 @@
     bottom: 0;
     background: #ccc;
 }
+.page-title span{
+   background: linear-gradient(-135deg, rgba(255,255,255,0) 8%,#28a0fc 8%,hsl(206.03773584906,97%,45%) 92%,rgba(255,255,255,0) 92%);
+   padding: 8px 30px;
+   font-size: 15px;
+   line-height: 1.5em;
+   float: right;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-left: 5px;
+   margin-bottom: 5px;
+}
